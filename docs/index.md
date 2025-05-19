@@ -38,6 +38,6 @@ features:
 <style module>
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,rgb(52, 254, 133),rgb(49, 36, 187));
 }
 </style>

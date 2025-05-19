@@ -1,7 +1,7 @@
 const { link } = require("fs");
 
 module.exports = {
-    title: 'CodeWave架构师课程',
+    title: 'CoreAgent培训课程',
     description: '',
     themeConfig: {
 
