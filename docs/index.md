@@ -20,13 +20,13 @@ hero:
 features:
   - icon: 🧑‍💻
     title: 大语言模型
-    details: 大语言、提示词
+    details: 大语言、提示词、LLM、大模型
     link: /llm
-  - icon: 🏗️
+  - icon: 📝
     title: 智能体开发
     details: 智能体开发、智能体部署、智能体测试
     link: /agent
-  - icon: 📝
+  - icon: 🏗️
     title: 知识库
     details: 向量数据库、知识图谱、语义检索
     link: /knowledge
@@ -38,6 +38,9 @@ features:
 <style module>
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,rgb(52, 254, 133),rgb(49, 36, 187));
+  /* --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff); */
+  --vp-home-hero-name-background: -webkit-linear-gradient(135deg, #29e0c9, #6463f4);
+  /* --vp-home-hero-name-background: -webkit-linear-gradient(90deg, #a88beb, #f2a6c8); */
+  /* --vp-home-hero-name-background: -webkit-linear-gradient(210deg, #ff5e3a, #ffd43b); */
 }
 </style>
