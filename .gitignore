@@ -1,0 +1,8 @@
+**/.vscode
+**/target
+**/.idea
+.DS_Store
+**/.DS_Store
+vue_lib/**/package-lock.json
+**/node_modules
+**/package-lock.json
