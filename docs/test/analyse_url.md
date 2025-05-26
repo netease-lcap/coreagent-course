@@ -17,7 +17,10 @@
 ## 测试用例
 
 用户输入：（网址可自由更换）
+
+```txt
 帮我分析以下网址：https://www.8world.com/singapore/private-education-institution-graduates-survey-2801376、https://www.8world.com/greater-china/hong-kong-age-3-girl-accompanied-mother-body-family-dinner-2800811、https://www.8world.com/finance/sg-manufacturing-output-2801251、https://www.8world.com/sports/serie-a-2801146
+```
 
 输出
 

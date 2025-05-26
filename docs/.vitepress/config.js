@@ -56,10 +56,14 @@ module.exports = {
                 {
                     text: '测试题库',
                     link: '/test',
-                    // items: [
-                    //     { text: '管控面定制', link: '/platform' },
-                    //     { text: 'IDE定制', link: '/platform' }
-                    // ]
+                    items: [
+                        { text: '岗位职责生成助手', link: '/test/responsible_position' },
+                        { text: '问诊小助手', link: '/test/inquiry' },
+                        { text: '短篇小说作家', link: '/test/novel' },
+                        { text: '低代码试题生成', link: '/test/generate_questions' },
+                        { text: '分析多个URL', link: '/test/analyse_url' },
+
+                    ]
                 },
             ]
     }
