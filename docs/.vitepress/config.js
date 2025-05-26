@@ -7,10 +7,10 @@ module.exports = {
 
         outline: [2, 4], // 显示 h2 和 h3 标题
         nav: [
-            { text: '大语言模型', link: '/llm' },
+            { text: '大模型概论', link: '/llm/history' },
+            { text: '提示词工程', link: '/prompt' },
             { text: '智能体开发', link: '/agent' },
-            { text: '知识库', link: '/architecture' },
-            { text: '平台设置', link: '/platform' }
+            { text: '知识库搭建', link: '/architecture' }
         ],
         sidebar:
             [
