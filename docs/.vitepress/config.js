@@ -18,11 +18,11 @@ module.exports = {
                     text: '提示词工程',
                     link: '/llm',
                     items: [
-                        [
-                            { text: '提示词', link: '/llm/prompt/prompt' },
-                            { text: '提示词模板', link: '/llm/prompt/template' },
-                            { text: '提示词示例', link: '/llm/prompt/example' },
-                        ]
+
+                        { text: '提示词', link: '/llm/prompt/prompt' },
+                        { text: '提示词模板', link: '/llm/prompt/template' },
+                        { text: '提示词示例', link: '/llm/prompt/example' },
+
                     ]
                 },
                 {
@@ -46,14 +46,14 @@ module.exports = {
                     ]
 
                 },
-                {
-                    text: '平台设置',
-                    link: '/platform',
-                    // items: [
-                    //     { text: '管控面定制', link: '/platform' },
-                    //     { text: 'IDE定制', link: '/platform' }
-                    // ]
-                },
+                // {
+                //     text: '平台设置',
+                //     link: '/platform',
+                //     // items: [
+                //     //     { text: '管控面定制', link: '/platform' },
+                //     //     { text: 'IDE定制', link: '/platform' }
+                //     // ]
+                // },
 
                 {
                     text: '测试题库',
