@@ -35,7 +35,7 @@
 
 回答
 
-![image](aaa)
+![image](assert/image2.png)
 
 测试用例2
 
@@ -43,7 +43,7 @@
 
 回答
 
-![image](aaa)
+![image](assert/image3.png)
 
 测试用例3
 
@@ -51,10 +51,10 @@
 
 回答
 
-![image](aaa)
+![image](assert/image4.png)
 
 用户输入：你会做饭吗？
 
 回答：
 
-![image](aaa)
+![image](assert/image5.png)

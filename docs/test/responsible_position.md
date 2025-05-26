@@ -22,7 +22,7 @@
 
 回答：
 
-![image](aaa)
+![image](assert/image.png)
 
 测试用例2
 
@@ -30,7 +30,7 @@
 
 回答
 
-![image](aaa)
+![image](assert/image1.png)
 
 测试用例3
 
@@ -38,4 +38,4 @@
 
 回答
 
-![image](aaa)
+![image](assert/image2.png)
