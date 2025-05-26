@@ -1,4 +1,6 @@
-### 工作流
+# 工作流
+
+## 工作流理解
 
 > 全自动完成一个系统的业务流程。
 
@@ -34,59 +36,59 @@
 
 
 
-### 工作流编排
+## 工作流编排
 CoreAgent 提供了强大的工作流编排能力，可帮助你构建复杂的对话流程。工作流是由多个节点组成的，每个节点代表一个工作单元，负责完成特定的任务。通过将这些节点连接起来，你可以构建出一个完整的对话流程，实现多轮对话交互。工作流的节点可以是预设的节点，也可以是你自己创建的自定义节点。通过将这些节点连接起来，你可以构建出一个完整的对话流程，实现多轮对话交互。
 
-#### 注释
+### 注释
 
 对每个节点进行说明或对整个工作流进行解释
 
 <img width="388" alt="image" src="https://github.com/user-attachments/assets/baf5d855-935a-478f-9b71-05a0e4840828" />
 
 
-#### 开始节点
+### 开始节点
 
 “开始” 节点是每个对话流/工作流必备的预设节点，不可移除，为后续工作流节点以及应用的正常流转提供必要的初始信息，例如应用使用者所输入的内容、以及上传的文件等。在开始节点的设置页，你可以看到两部分设置：允许开发者自行添加的输入字段、系统预设的系统变量。
 
 <img width="428" alt="image" src="https://github.com/user-attachments/assets/1f9a0ccc-3997-47df-8260-215a2063a926" />
 
 
-#### LLM
+### LLM
 
 调用大语言模型的能力，处理前置节点中输入的信息（通常是由开始节点输入的自然语言、上传的文件或图片），给出有效的回应信息。在应用编辑页中，点击鼠标右键或轻点上一节点末尾的 + 号，添加节点并选择 LLM。
 
 <img width="429" alt="image" src="https://github.com/user-attachments/assets/1a6bc7d2-b771-4de9-8018-3fbfa4a5ff0e" />
 
 
-#### 知识检索
+### 知识检索
 
 从知识库中检索与用户问题相关的文本内容，可作为下游 LLM 节点的上下文来使用。
 
 <img width="430" alt="image" src="https://github.com/user-attachments/assets/bf9368b5-8848-489f-9a4f-59990680dadd" />
 
 
-#### 问题分类
+### 问题分类
 
 通过定义分类描述，问题分类器能够根据用户输入，使用 LLM 推理与之相匹配的分类并输出分类结果，向下游节点提供更加精确的信息。
 
 ![image](https://github.com/user-attachments/assets/f7a62cb9-575d-4ba3-ad8b-27cf94f8d738)
 
 
-#### 条件分支
+### 条件分支
 
 根据 If/else/elif 条件将 Chatflow / Workflow 流程拆分成多个分支。
 
 <img width="435" alt="image" src="https://github.com/user-attachments/assets/e8615d40-e853-4b62-8af8-f8706460482f" />
 
 
-#### 代码执行
+### 代码执行
 
 代码节点支持运行 Python / NodeJS 代码以在工作流程中执行数据转换。它可以简化你的工作流程，适用于Arithmetic、JSON transform、文本处理等情景。该节点极大地增强了开发人员的灵活性，使他们能够在工作流程中嵌入自定义的 Python 或 Javascript 脚本，并以预设节点无法达到的方式操作变量。通过配置选项，你可以指明所需的输入和输出变量，并撰写相应的执行代码：
 
 <img width="428" alt="image" src="https://github.com/user-attachments/assets/f7d2ef83-be81-4d13-af80-58d313b44e9c" />
 
 
-#### 模板转换
+### 模板转换
 
 模板转换节点允许你借助 Jinja2 这一强大的 Python 模板语言，在工作流内实现轻量、灵活的数据转换，适用于文本处理、JSON 转换等情景。例如灵活地格式化并合并来自前面步骤的变量，创建出单一的文本输出。这非常适合于将多个数据源的信息汇总成一个特定格式，满足后续步骤的需求。
 
@@ -95,14 +97,14 @@ Jinja官方文档：https://docs.jinkan.org/docs/jinja2/
 <img width="428" alt="image" src="https://github.com/user-attachments/assets/a50542b2-d1f9-4bd7-a255-db4b6e213e3d" />
 
 
-#### 文档提取器
+### 文档提取器
 
 LLM 自身无法直接读取或解释文档的内容。因此需要将用户上传的文档，通过文档提取器节点解析并读取文档文件中的信息，转化文本之后再将内容传给 LLM 以实现对于文件内容的处理。
 
 <img width="429" alt="image" src="https://github.com/user-attachments/assets/45bf2c5d-5b62-4d50-a063-d963a62bd1a9" />
 
 
-#### 列表操作
+### 列表操作
 
 列表操作节点仅接受以下数据结构变量：
 
@@ -119,7 +121,7 @@ Array数据类型意味着该变量的实际值可能为 [1.mp3, 2.png, 3.doc]�
 <img width="428" alt="image" src="https://github.com/user-attachments/assets/d7fd2e17-cb20-4e75-95c2-571a14cc30ac" />
 
 
-#### 变量聚合
+### 变量聚合
 
 将多路分支的变量聚合为一个变量，以实现下游节点统一配置。
 
@@ -128,7 +130,7 @@ Array数据类型意味着该变量的实际值可能为 [1.mp3, 2.png, 3.doc]�
 <img width="434" alt="image" src="https://github.com/user-attachments/assets/46004fcd-5c6d-400d-9576-a7041886b09c" />
 
 
-#### 变量赋值
+### 变量赋值
 
 变量赋值节点用于向可写入变量进行变量赋值，已支持以下可写入变量：会话变量、循环变量
 
@@ -139,7 +141,7 @@ Array数据类型意味着该变量的实际值可能为 [1.mp3, 2.png, 3.doc]�
 <img width="432" alt="image" src="https://github.com/user-attachments/assets/7dc7b62a-c9c2-45b5-9bc1-c2206595e4a9" />
 
 
-#### 迭代
+### 迭代
 
 对数组中的元素依次执行相同的操作步骤，直至输出所有结果，可以理解为任务批处理器。迭代节点通常配合数组变量使用。
 
@@ -153,7 +155,7 @@ Array数据类型意味着该变量的实际值可能为 [1.mp3, 2.png, 3.doc]�
 
 <img width="1009" alt="image" src="https://github.com/user-attachments/assets/216fcd0c-8fbf-43e7-973f-b7fe927be14c" />
 
-#### 循环
+### 循环
 
 循环（Loop）节点用于执行依赖前一轮结果的重复任务，直到满足退出条件或达到最大循环次数。
 
@@ -166,7 +168,7 @@ Array数据类型意味着该变量的实际值可能为 [1.mp3, 2.png, 3.doc]�
 | 迭代（Iteration） | 轮次之间无依赖关系的批处理任务。即每一轮任务可以独立运行，无需依赖前一轮。 | 每轮独立执行，可用于数据批量处理等。           |
 
 
-#### 参数提取
+### 参数提取
 
 利用 LLM 从自然语言推理并提取结构化参数，用于后置的工具调用或 HTTP 请求。
 
@@ -177,7 +179,7 @@ CoreAgent 工作流内提供了丰富的工具选择，其中大多数工具的�
 <img width="235" alt="image" src="https://github.com/user-attachments/assets/0bc5902f-3c70-4123-a246-5fc030ab488e" />
 
 
-#### HTTP 请求
+### HTTP 请求
 
 允许通过 HTTP 协议发送服务器请求，适用于获取外部数据、webhook、生成图片、下载文件等情景。它让你能够向指定的网络地址发送定制化的 HTTP 请求，实现与各种外部服务的互联互通。
 
@@ -195,14 +197,14 @@ CoreAgent 工作流内提供了丰富的工具选择，其中大多数工具的�
 <img width="429" alt="image" src="https://github.com/user-attachments/assets/d7e2318e-4f39-4e36-ab8c-9d23c549183c" />
 
 
-#### Agent
+### Agent
 
 Agent 节点是 CoreAgent 对话流/工作流 中用于实现自主工具调用的组件。它通过集成不同的 Agent 推理策略，使大语言模型能够在运行时动态选择并执行工具，从而实现多步推理。
 
 <img width="436" alt="image" src="https://github.com/user-attachments/assets/afc35c49-ccc6-4e70-bb21-4ec57dd9e49f" />
 
 
-#### 工具
+### 工具
 
 + 插件
 + 自定义工具
@@ -211,7 +213,7 @@ Agent 节点是 CoreAgent 对话流/工作流 中用于实现自主工具调用�
 <img width="357" alt="image" src="https://github.com/user-attachments/assets/240fa5b5-a1e4-4a03-9880-550e97345703" />
 
 
-#### 结束
+### 结束
 
 定义一个工作流程结束的最终输出内容。每一个工作流在完整执行后都需要至少一个结束节点，用于输出完整执行的最终结果。
 
@@ -222,7 +224,7 @@ Agent 节点是 CoreAgent 对话流/工作流 中用于实现自主工具调用�
 <img width="429" alt="image" src="https://github.com/user-attachments/assets/16dc31ad-09e0-4b61-b79e-08ebe26c06a9" />
 
 
-#### 直接回复
+### 直接回复
 
 定义一个对话流中的回复内容。
 
