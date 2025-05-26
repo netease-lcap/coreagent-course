@@ -15,18 +15,14 @@ module.exports = {
         sidebar:
             [
                 {
-                    text: '大语言模型',
+                    text: '提示词工程',
                     link: '/llm',
                     items: [
-                        { text: '什么是大模型', link: '/llm/index' },
-                        {
-                            text: '提示词工程', link: '/llm/prompt', items:
-                                [
-                                    { text: '提示词', link: '/llm/prompt/prompt' },
-                                    { text: '提示词模板', link: '/llm/prompt/template' },
-                                    { text: '提示词示例', link: '/llm/prompt/example' },
-                                ]
-                        },
+                        [
+                            { text: '提示词', link: '/llm/prompt/prompt' },
+                            { text: '提示词模板', link: '/llm/prompt/template' },
+                            { text: '提示词示例', link: '/llm/prompt/example' },
+                        ]
                     ]
                 },
                 {
@@ -42,7 +38,7 @@ module.exports = {
                     ]
                 },
                 {
-                    text: '知识库',
+                    text: '知识库搭建',
                     link: '/knowledge',
                     items: [
                         { text: '什么是知识库', link: '/agent/index' },
