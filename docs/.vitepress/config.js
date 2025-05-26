@@ -16,13 +16,10 @@ module.exports = {
             [
                 {
                     text: '提示词工程',
-                    link: '/llm',
+                    link: '/prompt',
                     items: [
-                        [
-                            { text: '提示词', link: '/llm/prompt/prompt' },
-                            { text: '提示词模板', link: '/llm/prompt/template' },
-                            { text: '提示词示例', link: '/llm/prompt/example' },
-                        ]
+                        { text: '提示词分类', link: '/prompt' },
+                        { text: '结构化方法论', link: '/prompt' },
                     ]
                 },
                 {
@@ -41,19 +38,20 @@ module.exports = {
                     text: '知识库搭建',
                     link: '/knowledge',
                     items: [
-                        { text: '什么是知识库', link: '/agent/index' },
-                        { text: '知识库使用', link: '/agent/chat' },
+                        { text: '什么是知识库', link: '/knowledge' },
+                        { text: '调试知识库', link: '/knowledge' },
+                        { text: '知识库的作用', link: '/knowledge' },
                     ]
 
                 },
-                {
-                    text: '平台设置',
-                    link: '/platform',
-                    // items: [
-                    //     { text: '管控面定制', link: '/platform' },
-                    //     { text: 'IDE定制', link: '/platform' }
-                    // ]
-                },
+                // {
+                //     text: '平台设置',
+                //     link: '/platform',
+                //     // items: [
+                //     //     { text: '管控面定制', link: '/platform' },
+                //     //     { text: 'IDE定制', link: '/platform' }
+                //     // ]
+                // },
 
                 {
                     text: '测试题库',
