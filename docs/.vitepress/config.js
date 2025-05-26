@@ -6,35 +6,49 @@ module.exports = {
     themeConfig: {
 
         outline: [2, 4], // 显示 h2 和 h3 标题
-        // nav: [
-        //     { text: '应用开发', link: '/development' },
-        //     { text: '部署集成', link: '/deployment' },
-        //     { text: '应用架构', link: '/architecture' },
-        //     { text: '平台定制', link: '/platform' }
-        // ],
+        nav: [
+            { text: '大语言模型', link: '/llm' },
+            { text: '智能体开发', link: '/agent' },
+            { text: '知识库', link: '/architecture' },
+            { text: '平台设置', link: '/platform' }
+        ],
         sidebar:
             [
                 {
                     text: '大语言模型',
                     link: '/llm',
-                    // items: [
-                    //     { text: '源码导出', link: '/development/index' },
-                    //     { text: '翻译器定制', link: '/development/index' },
-                    //     { text: '日志监控', link: '/development/index' },
-                    // ]
+                    items: [
+                        { text: '什么是大模型', link: '/llm/index' },
+                        {
+                            text: '提示词工程', link: '/llm/prompt', items:
+                                [
+                                    { text: '提示词', link: '/llm/prompt/prompt' },
+                                    { text: '提示词模板', link: '/llm/prompt/template' },
+                                    { text: '提示词示例', link: '/llm/prompt/example' },
+                                ]
+                        },
+                    ]
                 },
                 {
                     text: '智能体开发',
                     link: '/agent',
-                    // items: [
-                    //     { text: '源码导出', link: '/development/index' },
-                    //     { text: '翻译器定制', link: '/development/index' },
-                    //     { text: '日志监控', link: '/development/index' },
-                    // ]
+                    items: [
+                        { text: '什么是智能体', link: '/agent/index' },
+                        {
+                            text: '聊天助手', link: '/agent/chat'
+                        },
+                        { text: '工作流', link: '/agent/stream' },
+                        { text: '对话流', link: '/agent/workflow' },
+                    ]
                 },
                 {
                     text: '知识库',
                     link: '/knowledge',
+                    items: [
+                        { text: '什么是知识库', link: '/agent/index' },
+                        { text: '知识库使用', link: '/agent/chat' },
+                    ]
+
                 },
                 {
                     text: '平台设置',
