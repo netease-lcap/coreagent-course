@@ -37,8 +37,8 @@ module.exports = {
                         {
                             text: '聊天助手', link: '/agent/chat'
                         },
-                        { text: '工作流', link: '/agent/stream' },
-                        { text: '对话流', link: '/agent/workflow' },
+                        { text: '工作流', link: '/agent/workflow' },
+                        { text: '对话流', link: '/agent/dialogueFlow' },
                     ]
                 },
                 {
@@ -53,6 +53,15 @@ module.exports = {
                 {
                     text: '平台设置',
                     link: '/platform',
+                    // items: [
+                    //     { text: '管控面定制', link: '/platform' },
+                    //     { text: 'IDE定制', link: '/platform' }
+                    // ]
+                },
+
+                {
+                    text: '测试题库',
+                    link: '/test',
                     // items: [
                     //     { text: '管控面定制', link: '/platform' },
                     //     { text: 'IDE定制', link: '/platform' }
