@@ -16,10 +16,11 @@ module.exports = {
             [
                 {
                     text: '大模型概论',
-                    link: '/llm',
+                    link: '/llm/agent',
                     items: [
                         { text: 'AI与大模型历史', link: '/llm/history' },
                         { text: 'Transformer与AIGC', link: '/llm/aigc' },
+                        { text: '大模型应用架构', link: '/llm/agent' },
                     ]
                 },
                 {
