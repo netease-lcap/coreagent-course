@@ -10,3 +10,4 @@
 
 [分析多个URL](analyse_url)
 
+[构建“小智”智能助手](knowledge)
