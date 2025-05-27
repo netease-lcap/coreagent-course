@@ -1,25 +1,32 @@
 # 分析多个URL
 
-## 题目
+## 题目描述
 
-用户要求分析多个url链接，最后返回总结后的文字数组
+请以分析多个URL为题完成以下任务，构建一个能够“**根据输入循环分析多个URL**”的工作流。
 
-使用到的组件节点
-1、开始
-2、参数提取器
-3、迭代
-4、工具-firecrawl-单页面抓取
-5、LLM
-6、结束
+你需要从提示词设计、工作流设计等维度，完成以下内容：
 
+## ✍️ 任务要求
+
+### Agent工作流设计
+
++ 用户要求分析多个url链接，最后返回总结后的文字数组
++ 根据用户输入将多个url提取为列表
++ 列表循环分析每个url中的内容
++ 总结为markdown格式输出
+
+
+### 工作流图例
 ![image](https://github.com/user-attachments/assets/af884376-1446-4514-923c-8d6828b55d2b)
 
-## 测试用例
+### 测试用例
 
 用户输入：（网址可自由更换）
 
 ```txt
+
 帮我分析以下网址：https://www.8world.com/singapore/private-education-institution-graduates-survey-2801376、https://www.8world.com/greater-china/hong-kong-age-3-girl-accompanied-mother-body-family-dinner-2800811、https://www.8world.com/finance/sg-manufacturing-output-2801251、https://www.8world.com/sports/serie-a-2801146
+
 ```
 
 输出
@@ -34,3 +41,19 @@
   ]
 }
 ```
+
+## 📝 提交方式说明
+
+本次实操题无需上传文件，请按照以下流程提交你的成果：
+
+1. 在 CoreAgent 系统中创建一个工作流（WorkFlow），名称建议为“分析多个URL- 张三作品”；
+2. 在该智能体工作流中完成以下内容：
+
+* **配置提示词（Prompt）**：包含角色、背景、任务、输出格式等要素；
+* **配置智能体编排流程**：在 WorkFlow 中添加以下节点：
+  + 开始
+  + 参数提取器
+  + 迭代
+  + 工具-firecrawl-单页面抓取
+  + LLM
+  + 结束
