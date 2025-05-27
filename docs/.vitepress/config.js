@@ -27,8 +27,8 @@ module.exports = {
                     text: '提示词工程',
                     link: '/prompt',
                     items: [
-                        { text: '提示词分类', link: '/prompt' },
-                        { text: '结构化方法论', link: '/prompt' },
+                        { text: '提示词分类', link: '/prompt/#_2-1-提示词的分类方法' },
+                        { text: '结构化方法论', link: '/prompt/#_2-2-结构化提示词方法论' },
                     ]
                 },
                 {
@@ -71,6 +71,8 @@ module.exports = {
                         { text: '短篇小说作家', link: '/test/novel' },
                         { text: '低代码试题生成', link: '/test/generate_questions' },
                         { text: '分析多个URL', link: '/test/analyse_url' },
+                        { text: '构建“小智”智能助手', link: '/test/knowledge' },
+
 
                     ]
                 },
