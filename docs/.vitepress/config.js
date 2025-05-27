@@ -63,17 +63,15 @@ module.exports = {
                 // },
 
                 {
-                    text: '测试题库',
+                    text: '认证题库',
                     link: '/test',
                     items: [
-                        { text: '岗位职责生成助手', link: '/test/responsible_position' },
-                        { text: '问诊小助手', link: '/test/inquiry' },
-                        { text: '短篇小说作家', link: '/test/novel' },
-                        { text: '低代码试题生成', link: '/test/generate_questions' },
-                        { text: '分析多个URL', link: '/test/analyse_url' },
-                        { text: '构建“小智”智能助手', link: '/test/knowledge' },
-
-
+                        { text: '1. 岗位职责生成助手', link: '/test/responsible_position' },
+                        { text: '2. 问诊小助手', link: '/test/inquiry' },
+                        { text: '3. 短篇小说作家', link: '/test/novel' },
+                        { text: '4. 构建“小智”智能助手', link: '/test/knowledge' },
+                        { text: '5. 低代码试题生成(选做)', link: '/test/generate_questions' },
+                        { text: '6. 分析多个URL(选做)', link: '/test/analyse_url' },
                     ]
                 },
             ]
