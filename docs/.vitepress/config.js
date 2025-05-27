@@ -47,9 +47,9 @@ module.exports = {
                     text: '知识库搭建',
                     link: '/knowledge',
                     items: [
-                        { text: '什么是知识库', link: '/knowledge' },
-                        { text: '调试知识库', link: '/knowledge' },
-                        { text: '知识库的作用', link: '/knowledge' },
+                        { text: '什么是知识库', link: '/knowledge/#_1-1-1-什么是知识库' },
+                        { text: '知识库作用', link: '/knowledge/#_1-1-3-知识库的作用' },
+                        { text: '知识库搭建', link: '/knowledge/#_1-2-coreagent-知识库实操' },
                     ]
 
                 },

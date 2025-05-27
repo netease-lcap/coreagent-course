@@ -19,21 +19,22 @@ hero:
    
 features:
   - icon: 🧑‍💻
-    title: 大语言模型
-    details: 大语言、提示词、LLM、大模型
-    link: /llm
+    title: 大模型概念
+    details: AI、深度学习、大模型、智能体
+    link: /llm/agent
+  - icon: 🛠️
+    title: 提示词工程
+    details: 提示词分类、提示词设计、提示词测试
+    link: /prompt
   - icon: 📝
     title: 智能体开发
     details: 智能体开发、智能体部署、智能体测试
     link: /agent
   - icon: 🏗️
-    title: 知识库
+    title: 知识库搭建
     details: 向量数据库、知识图谱、语义检索
     link: /knowledge
-  - icon: 🛠️
-    title: 平台设置
-    details: 模型管理、用户管理、插件管理、模版管理
-    link: /platform
+  
 ---
 <style module>
 :root {
