@@ -53,6 +53,16 @@ module.exports = {
                     ]
 
                 },
+                {
+                    text: 'CodeWave集成',
+                    link: '/codewave',
+                    items: [
+                        { text: 'CoreAgent如何集成CodeWave', link: '/codewave/index' },
+                        { text: 'CoreAgent工作流接口', link: '/codewave/coreagentWorkflow' },
+                        { text: 'CoreAgent聊天助手&对话流接口', link: '/codewave/coreagentChat' },
+                        { text: 'CodeWave连接器', link: '/codewave/codewave' },
+                    ]
+                },
                 // {
                 //     text: '平台设置',
                 //     link: '/platform',
