@@ -32,7 +32,7 @@
 
 自行先搭建数据实体
 
-[数据SQL下载](./assert/websql_export_jystudy2-dev-cacw-qc3bym_CqaLw.sql)
+[数据SQL下载](https://github.com/netease-lcap/coreagent-course/blob/main/docs/test/assert/websql_export_jystudy2-dev-cacw-qc3bym_CqaLw.sql)
 
 ## 📝 提交方式说明
 
