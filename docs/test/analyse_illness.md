@@ -32,7 +32,15 @@
 
 自行先搭建数据实体
 
-[数据SQL下载](https://github.com/netease-lcap/coreagent-course/blob/main/docs/test/assert/websql_export_jystudy2-dev-cacw-qc3bym_CqaLw.sql)
+```sql
+
+TRUNCATE TABLE `illness`;
+
+INSERT INTO `illness` (`id`,`created_time`,`updated_time`,`created_by`,`updated_by`,`user_name`,`gender`,`age`,`ill`,`result`,`suggest`) VALUES (3142200186320384,'2025-06-03 15:50:55','2025-06-07 00:22:38',null,null,'朱小明','0',48,'男性，48 岁，乙肝肝硬化病史 10 年，未规律抗病毒治疗。近 2 周出现腹胀明显，伴食欲减退、下肢水肿。查体：慢性病容，皮肤巩膜轻度黄染，肝掌（+），蜘蛛痣（+），腹部膨隆，移动性浊音（+），肝脾触诊不满意，双下肢凹陷性水肿。实验室检查：ALT 65U/L，AST 82U/L，白蛋白 28g/L（正常 40-55g/L），总胆红素 32μmol/L，凝血酶原时间（PT）18 秒（正常 11-14 秒）；腹部超声示肝脏表面不光滑，门静脉内径 1.5cm，腹腔积液深度 8cm。',null,null);
+INSERT INTO `illness` (`id`,`created_time`,`updated_time`,`created_by`,`updated_by`,`user_name`,`gender`,`age`,`ill`,`result`,`suggest`) VALUES (3142201748387328,'2025-06-03 15:54:05','2025-06-07 00:22:38',null,null,'花公子','0',52,'男性，52 岁，高血压病史 10 年，血压最高达 180/110mmHg，未规律服用降压药（偶尔服用硝苯地平缓释片）。近半年出现夜尿增多（每晚 3-4 次），伴眼睑及双下肢轻度水肿。查体：血压 165/105mmHg，贫血貌，双肾区无叩痛。实验室检查：血肌酐 180μmol/L（正常范围 53-106μmol/L），尿素氮 10.2mmol/L，尿蛋白（++），尿红细胞 5-8/HP，血红蛋白 105g/L（正常男性 130-175g/L）；肾脏超声示双肾体积缩小，皮质回声增强。',null,null);
+INSERT INTO `illness` (`id`,`created_time`,`updated_time`,`created_by`,`updated_by`,`user_name`,`gender`,`age`,`ill`,`result`,`suggest`) VALUES (3142202734425600,'2025-06-03 15:56:06','2025-06-07 00:22:38',null,null,'张小美','1',30,'女性，30 岁，SLE 病史 5 年，规律服用泼尼松（10mg qd）及羟氯喹治疗。近 1 个月出现乏力、面色苍白，活动后心悸，间断出现皮肤瘀点。查体：体温 37.5℃，贫血貌，四肢可见散在瘀斑，肝脾未触及肿大。实验室检查：血红蛋白 78g/L（正常女性 110-150g/L），白细胞 3.2×10⁹/L（正常 4-10×10⁹/L），血小板 65×10⁹/L（正常 100-300×10⁹/L），网织红细胞计数 0.8%；抗双链 DNA 抗体（+），补体 C3 0.5g/L（正常 0.8-1.5g/L）。',null,null);
+
+```
 
 ## 📝 提交方式说明
 
