@@ -69,7 +69,7 @@ CodeWave平台的连接器是一种用于连接第三方服务、系统或数据
 
 ### CoreAgent连接器附件
 
-已经封装好的CoreAgent连接器：[CoreAgent连接器](./assert/asset-center_jystudy2_connector_coragent_1.0.0_连接器_coreAgent连接器_1.0.0.zip)
+已经封装好的CoreAgent连接器：[CoreAgent连接器](https://github.com/netease-lcap/coreagent-course/raw/refs/heads/main/docs/codewave/assert/asset-center_jystudy2_connector_coragent_1.0.0_%E8%BF%9E%E6%8E%A5%E5%99%A8_CoreAgent%E8%BF%9E%E6%8E%A5%E5%99%A8_1.0.0.zip)
 
 使用说明
 

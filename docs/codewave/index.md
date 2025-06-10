@@ -25,7 +25,7 @@
    ![](./assert/img14.png)
 
 ## 实现案例模版
-[CACW病情分析局部模版](./assert/asset-center_jystudy2_segment_cacw_1.0.0_局部模板_CACW医院病情分析_1.0.0.zip)
+[CACW病情分析局部模版](https://github.com/netease-lcap/coreagent-course/raw/refs/heads/main/docs/codewave/assert/asset-center_jystudy2_segment_cacw_1.0.0_%E5%B1%80%E9%83%A8%E6%A8%A1%E6%9D%BF_CACW%E5%8C%BB%E9%99%A2%E7%97%85%E6%83%85%E5%88%86%E6%9E%90_1.0.0.zip)
 
 ## CoreAgent提供调用接口
 
